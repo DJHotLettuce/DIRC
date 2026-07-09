@@ -15,7 +15,7 @@ There are 2 ways to contribute links to the directory.
 
 The purpose of dirc.link is to help people avoid low quality cooking websites that are cluttered with ads. So we can’t accept low effort content farm sites, AI generated slop or anything with popup ads
 
-Static ads are acceptable. For example, if you have a blog that contains a banner promoting your new cookbook then that is fine. Or if a recipe on your site is has a paid promotion then that is okay too
+Static ads are acceptable. For example, if you have a blog that contains a banner promoting your new cookbook then that is fine. Or if a recipe on your site has a paid promotion then that is okay too
 
 The ads that we’re avoiding are the embedded algorithmic popups created by internet advertising companies
 
