@@ -5,6 +5,10 @@ DIRC is a curated directory of high quality cooking websites that are free of in
 
 The theory behind this project is that a human managed web directory can serve as the basis for higher quality search engines. Help is needed in order to scale up the list of websites so any submissions or suggestions are greatly appreciated
 
+## Structure
+
+The directory is a tree of folders representing categories that contain csv files. The csv files represent subcategories. The csv files contain the websites entries. For example, “tostitos.com/recipes” would be located in businesses/food_brands.csv
+
 ## Contributing
 
 There are 2 ways to contribute links to the directory.
