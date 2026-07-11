@@ -7,7 +7,7 @@ The theory behind this project is that a human managed web directory can serve a
 
 ## Structure
 
-The directory is a tree of folders representing categories that contain csv files. The csv files represent subcategories. The csv files contain the websites entries. For example, “tostitos.com/recipes” would be located in businesses/food_brands.csv
+The directory is made up of csv files which contain the website entries. The csv files represent different categories of websites, such as 'blogs', 'food brands', etc.
 
 ## Contributing
 
