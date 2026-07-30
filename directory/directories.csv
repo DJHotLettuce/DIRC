@@ -1,0 +1,3 @@
+Title,Author,Description,Domain,URL,Recipe Prefix,Category
+TheCocktailDB.com - Free Cocktail API,TheCocktailDB,"An open, crowd-sourced database of drinks and cocktails from around the world.",www.thecocktaildb.com,https://www.thecocktaildb.com,thecocktaildb.com/drink/,directories
+TheMealDB.com - Free recipe API and database,TheMealDB,"An open, crowd-sourced database of recipes from around the world.",www.themealdb.com,https://www.themealdb.com,themealdb.com/meal/,directories
