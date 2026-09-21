@@ -8,7 +8,7 @@ The theory behind this project is that a human managed web directory can serve a
 ## Contributing
 
 There are 2 ways to contribute links to the directory.
-1. Create a pull request here on the repository. Then add an entry to 'Directory/iri.ini' file according to the guidelines list below.
+1. Create a pull request here on the repository. Then add an entry to 'Directory/iri.ini' file according to the guidelines listed below.
 2. Submit links using the form at https://iri.cooking/contact.php
 
 ## Submission Guidelines
@@ -37,24 +37,16 @@ The directory is an ini file which contains the website entries.
 
 Example entry:
 
-[Recipes from The Great British Bake Off]
-author=Love Productions
-
-info=The Great British Bake Off is the ultimate baking battle where passionate amateur baking fans compete to be crowned the UK’s Best Amateur Baker.
-
-tags=tv shows
-
-rating=good
-
-startURL=https://thegreatbritishbakeoff.co.uk/recipes
-
-crawlURLFilters=https://thegreatbritishbakeoff.co.uk
-
-scrapeURLFilters=thegreatbritishbakeoff.co.uk/recipes/
-
-dontCrawlURLFilters=^https://thegreatbritishbakeoff.co.uk/bake-offs/,^https://thegreatbritishbakeoff.co.uk/your-bakes/,collection=
-
-dontScrapeURLFilters=
+[Recipes from The Great British Bake Off]\
+author=Love Productions\
+info=The Great British Bake Off is the ultimate baking battle where passionate amateur baking fans compete to be crowned the UK’s Best Amateur Baker.\
+tags=tv shows\
+rating=good\
+startURL=https://thegreatbritishbakeoff.co.uk/recipes\
+crawlURLFilters=https://thegreatbritishbakeoff.co.uk\
+scrapeURLFilters=thegreatbritishbakeoff.co.uk/recipes/\
+dontCrawlURLFilters=^https://thegreatbritishbakeoff.co.uk/bake-offs/,^https://thegreatbritishbakeoff.co.uk/your-bakes/,collection=\
+dontScrapeURLFilters=\
 
 Required Fields:
 1. [TITLE]
