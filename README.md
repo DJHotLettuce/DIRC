@@ -38,14 +38,23 @@ The directory is an ini file which contain the website entries.
 Example entry:
 
 [Recipes from The Great British Bake Off]
+
 author=Love Productions
+
 info=The Great British Bake Off is the ultimate baking battle where passionate amateur baking fans compete to be crowned the UK’s Best Amateur Baker.
+
 tags=tv shows
+
 rating=good
+
 startURL=https://thegreatbritishbakeoff.co.uk/recipes
+
 crawlURLFilters=https://thegreatbritishbakeoff.co.uk
+
 scrapeURLFilters=thegreatbritishbakeoff.co.uk/recipes/
+
 dontCrawlURLFilters=^https://thegreatbritishbakeoff.co.uk/bake-offs/,^https://thegreatbritishbakeoff.co.uk/your-bakes/,collection=
+
 dontScrapeURLFilters=
 
 Required Fields:
@@ -56,11 +65,11 @@ This is the title of the website
 tags=The Category or relevant words
 4. rating=good
 Rating is either (mid, good, great)
+5. startURL=Where the crawler should start crawling
 
 Optional Fields:
 These parameters are for the web crawler and don't need to be included
-startURL=Where the crawler should start crawling
-crawlURLFilters=A list of strings or regular expressions for which URLs the crawler should follow
-scrapeURLFilters=A list of strings or regular expressions for which URLs the crawler should index
-dontCrawlURLFilters=A list of strings or regular expressions for which URLs the crawler should explicitly avoid
-dontScrapeURLFilters=A list of strings or regular expressions for which URLs the crawler should explicitly not index
+1. crawlURLFilters=A list of strings or regular expressions for which URLs the crawler should follow
+2. scrapeURLFilters=A list of strings or regular expressions for which URLs the crawler should index
+3. dontCrawlURLFilters=A list of strings or regular expressions for which URLs the crawler should explicitly avoid
+4. dontScrapeURLFilters=A list of strings or regular expressions for which URLs the crawler should explicitly not index
