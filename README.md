@@ -42,10 +42,10 @@ author=Love Productions\
 info=The Great British Bake Off is the ultimate baking battle where passionate amateur baking fans compete to be crowned the UK’s Best Amateur Baker.\
 tags=tv shows\
 rating=good\
-startURL=https://thegreatbritishbakeoff.co.uk/recipes\
-crawlURLFilters=https://thegreatbritishbakeoff.co.uk\
-scrapeURLFilters=thegreatbritishbakeoff.co.uk/recipes/\
-dontCrawlURLFilters=^https://thegreatbritishbakeoff.co.uk/bake-offs/,^https://thegreatbritishbakeoff.co.uk/your-bakes/,collection=\
+startURL=https://thegreatbritishbakeoff.co.uk/recipes \
+crawlURLFilters=https://thegreatbritishbakeoff.co.uk \
+scrapeURLFilters=thegreatbritishbakeoff.co.uk/recipes/ \
+dontCrawlURLFilters=^https://thegreatbritishbakeoff.co.uk/bake-offs/,^https://thegreatbritishbakeoff.co.uk/your-bakes/,collection= \
 dontScrapeURLFilters=
 
 Required Fields:
