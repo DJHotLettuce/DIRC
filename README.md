@@ -13,7 +13,7 @@ There are 2 ways to contribute links to the directory.
 
 ## Submission Guidelines
 
-The purpose of dirc.link is to help people avoid low quality cooking websites that are cluttered with ads. So we can’t accept low effort content farm sites, AI generated slop or anything with popup ads
+The purpose of IRI.cooking is to help people avoid low quality cooking websites that are cluttered with ads. So we can’t accept low effort content farm sites, AI generated slop or anything with popup ads
 
 Absolutely no video ads! They noticeably slow down browsers, especially for people using older devices
 
