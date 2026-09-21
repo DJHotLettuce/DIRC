@@ -28,17 +28,16 @@ It’s easier to just not accept websites that have any at all. Further more, so
 
 ## Project Status
 
-DIRC is a hobby project and still in development. The goal is to be a proof of concept for a new way to create search engines. If all goes well then, in theory, the same concept could be used to create a general purpose search engine
+IRI is a hobby project and still in development. The goal is to be a proof of concept for a new way to create search engines. If all goes well then, in theory, the same concept could be used to create a general purpose search engine
 Also I like to cook and I think most of the popular recipe websites are terrible
 
 ## Directory Structure
 
-The directory is an ini file which contain the website entries.
+The directory is an ini file which contains the website entries.
 
 Example entry:
 
 [Recipes from The Great British Bake Off]
-
 author=Love Productions
 
 info=The Great British Bake Off is the ultimate baking battle where passionate amateur baking fans compete to be crowned the UK’s Best Amateur Baker.
