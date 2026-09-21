@@ -46,7 +46,7 @@ startURL=https://thegreatbritishbakeoff.co.uk/recipes\
 crawlURLFilters=https://thegreatbritishbakeoff.co.uk\
 scrapeURLFilters=thegreatbritishbakeoff.co.uk/recipes/\
 dontCrawlURLFilters=^https://thegreatbritishbakeoff.co.uk/bake-offs/,^https://thegreatbritishbakeoff.co.uk/your-bakes/,collection=\
-dontScrapeURLFilters=\
+dontScrapeURLFilters=
 
 Required Fields:
 1. [TITLE]
