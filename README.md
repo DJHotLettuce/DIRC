@@ -1,7 +1,7 @@
 # DIRC
 ## Directory of Internet Recipes &amp; Cocktails
 
-DIRC is a curated directory of high quality cooking websites that are free of intrusive popup advertisements. The websites are crawled and indexed to create a special purpose recipe search engine which can be found at https://dirc.link
+DIRC is a curated directory of high quality cooking websites that are free of intrusive popup advertisements. The websites are crawled and indexed to create a special purpose recipe search engine which can be found at https://iri.cooking
 
 The theory behind this project is that a human managed web directory can serve as the basis for higher quality search engines. Help is needed in order to scale up the list of websites so any submissions or suggestions are greatly appreciated
 
@@ -9,7 +9,7 @@ The theory behind this project is that a human managed web directory can serve a
 
 There are 2 ways to contribute links to the directory.
 1. Create a pull request here on the repository. Then add an entry to 'Directory/iri.ini' file according to the guidelines list below.
-2. Submit links using the form at https://dirc.link/contact.php
+2. Submit links using the form at https://iri.cooking/contact.php
 
 ## Submission Guidelines
 
