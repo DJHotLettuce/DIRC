@@ -5,14 +5,10 @@ DIRC is a curated directory of high quality cooking websites that are free of in
 
 The theory behind this project is that a human managed web directory can serve as the basis for higher quality search engines. Help is needed in order to scale up the list of websites so any submissions or suggestions are greatly appreciated
 
-## Structure
-
-The directory is made up of csv files which contain the website entries. The csv files represent different categories of websites, such as 'blogs', 'food brands', etc.
-
 ## Contributing
 
 There are 2 ways to contribute links to the directory.
-1. Create a pull request here on the repository
+1. Create a pull request here on the repository. Then add an entry to 'Directory/iri.ini' file according to the guidelines list below.
 2. Submit links using the form at https://dirc.link/contact.php
 
 ## Submission Guidelines
@@ -34,3 +30,37 @@ It’s easier to just not accept websites that have any at all. Further more, so
 
 DIRC is a hobby project and still in development. The goal is to be a proof of concept for a new way to create search engines. If all goes well then, in theory, the same concept could be used to create a general purpose search engine
 Also I like to cook and I think most of the popular recipe websites are terrible
+
+## Directory Structure
+
+The directory is an ini file which contain the website entries.
+
+Example entry:
+
+[Recipes from The Great British Bake Off]
+author=Love Productions
+info=The Great British Bake Off is the ultimate baking battle where passionate amateur baking fans compete to be crowned the UK’s Best Amateur Baker.
+tags=tv shows
+rating=good
+startURL=https://thegreatbritishbakeoff.co.uk/recipes
+crawlURLFilters=https://thegreatbritishbakeoff.co.uk
+scrapeURLFilters=thegreatbritishbakeoff.co.uk/recipes/
+dontCrawlURLFilters=^https://thegreatbritishbakeoff.co.uk/bake-offs/,^https://thegreatbritishbakeoff.co.uk/your-bakes/,collection=
+dontScrapeURLFilters=
+
+Required Fields:
+1. [TITLE]
+This is the title of the website
+2. author=Author of site
+3. info=A brief description of the site
+tags=The Category or relevant words
+4. rating=good
+Rating is either (mid, good, great)
+
+Optional Fields:
+These parameters are for the web crawler and don't need to be included
+startURL=Where the crawler should start crawling
+crawlURLFilters=A list of strings or regular expressions for which URLs the crawler should follow
+scrapeURLFilters=A list of strings or regular expressions for which URLs the crawler should index
+dontCrawlURLFilters=A list of strings or regular expressions for which URLs the crawler should explicitly avoid
+dontScrapeURLFilters=A list of strings or regular expressions for which URLs the crawler should explicitly not index
