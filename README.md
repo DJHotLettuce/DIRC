@@ -3,9 +3,13 @@
 
 DIRC is a curated directory of high quality cooking websites that are free of intrusive popup advertisements. The websites are crawled and indexed to create a special purpose recipe search engine which can be found at https://iri.cooking
 
-The theory behind this project is that a human managed web directory can serve as the basis for higher quality search engines. Help is needed in order to scale up the list of websites so any submissions or suggestions are greatly appreciated
+The theory behind this project is that a human managed web directory can serve as the basis for higher quality search engines. Because we're not crawling the entire web, the project requires very little compute resources.
+
+Eventually, different special purpose search engines could be linked together to create a general purpose search engine. One that requires less maintenance and resources than traditional search engines while also delivering better results. (See [Similar Projects](#Similar-Projects))
 
 ## Contributing
+
+Help is needed in order to scale up the list of websites so any submissions or suggestions are greatly appreciated
 
 There are 2 ways to contribute links to the directory.
 1. Create a pull request here on the repository. Then add an entry to 'Directory/iri.ini' file according to the guidelines listed below.
@@ -64,3 +68,11 @@ These parameters are for the web crawler and don't need to be included
 2. scrapeURLFilters=A list of strings or regular expressions for which URLs the crawler should index
 3. dontCrawlURLFilters=A list of strings or regular expressions for which URLs the crawler should explicitly avoid
 4. dontScrapeURLFilters=A list of strings or regular expressions for which URLs the crawler should explicitly not index
+
+## Similar Projects
+
+https://feedle.world
+
+https://marginalia-search.com
+
+https://wiby.org
